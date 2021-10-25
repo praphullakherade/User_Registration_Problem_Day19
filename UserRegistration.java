@@ -7,9 +7,9 @@ public class UserRegistration {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter First Name : ");
+        System.out.println("Enter Last Name : ");
         String getFirstName = sc.next();
-        UC1 first = new UC1();
-        first.firstName(getFirstName);
+        UC2 first = new UC2();
+        first.lastName(getFirstName);
     }
 }
