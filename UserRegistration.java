@@ -8,8 +8,8 @@ public class UserRegistration {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Last Name : ");
-        String getFirstName = sc.next();
-        UC2 first = new UC2();
-        first.lastName(getFirstName);
+        String getLastName = sc.next();
+        UC2 last = new UC2();
+        last.lastName(getLastName);
     }
 }
