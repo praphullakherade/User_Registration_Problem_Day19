@@ -9,7 +9,7 @@ public class UserRegistration {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter password : ");
         String getUserInput = sc.next();
-        UC6 uc6 = new UC6();
-        uc6.validate(getUserInput);
+        UC7 uc7 = new UC7();
+        uc7.validate(getUserInput);
     }
 }
