@@ -7,9 +7,9 @@ public class UserRegistration {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Phone Number : ");
+        System.out.println("Enter password : ");
         String getUserInput = sc.next();
-        UC4 phoneNumber = new UC4();
-        phoneNumber.validate(getUserInput);
+        UC7 uc7 = new UC7();
+        uc7.validate(getUserInput);
     }
 }
